@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "supergulp",
   "version": "1.0.0",
   "description": "",
@@ -23,8 +24,12 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/register": "^7.17.7",
     "gulp": "^4.0.2",
+    "gulp-image": "^6.3.1",
+    "gulp-imagemin": "^8.0.0",
     "gulp-pug": "^5.0.0",
-    "gulp-webserver": "^0.9.1"
+    "gulp-sass": "^5.1.0",
+    "gulp-webserver": "^0.9.1",
+    "sass": "^1.55.0"
   },
   "dependencies": {
     "del": "^6.1.1"
